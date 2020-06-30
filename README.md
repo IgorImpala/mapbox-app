@@ -2,16 +2,12 @@ To try the app please follow these steps
 
 1. Install required packages
 
-In the project directory run:
-
-### `yarn`
+In the project directory run: yarn
 
 2. This project uses mapbox.com service. Create a file `.env.local` in the root project directory. Add REACT_APP_MAPBOX_TOKEN = "your_access_token" For details see https://docs.mapbox.com/api/#access-tokens-and-token-scopes
 
 
-3. In the project directory run:
-
-### `yarn start`
+3. In the project directory run: yarn start
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
