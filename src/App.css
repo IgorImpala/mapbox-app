@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.geocoder {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  top: 20px;
+}
+
