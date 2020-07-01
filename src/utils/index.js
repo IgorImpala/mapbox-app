@@ -105,7 +105,7 @@ export function createDirectionsCoordinates(stringCoordinatesArray) {
 export function createViewStateDataSet(array){
 
     function findCenterCoordinates(arr){
-        let minX, maxX, minY, maxY;
+        let minX = null, maxX = null, minY = null, maxY = null;
         for (let i = 0; i < arr.length; i++)
         {
             minX = (+arr[i][1] < minX || minX == null) ? +arr[i][1] : minX;
